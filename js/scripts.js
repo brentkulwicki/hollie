@@ -24,8 +24,7 @@ let currentSlide = (n) => {
 let showSlides = (n) => {
     let i;
     let slides = document.getElementsByClassName("mySlides");
-    let dots = do
-    cument.getElementsByClassName("modal-demo");
+    let dots = document.getElementsByClassName("modal-demo");
     let captionText = document.getElementById("modal-caption");
     if (n > slides.length) {slideIndex = 1}
     if (n < 1) {slideIndex = slides.length}
